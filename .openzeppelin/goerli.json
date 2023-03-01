@@ -1,0 +1,87 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xA3bF518F24a3Ab9B6033522802310cF4eD0Ada4B",
+    "txHash": "0xece189c2dcc1d49d076e28247d367ec7dd1db1aa45aea51a29c38df2dad03275"
+  },
+  "proxies": [
+    {
+      "address": "0xa1247840FBF601bA335D1ae934C1e87534B05393",
+      "txHash": "0x46fa92bfda60bd67a2d63772407f051346947c78eeb52649b2f2bce5fcc552eb",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a727cf974953e2814a982a2f445be8ae9e132d31fcd2f30b65b50616b4787e8b": {
+      "address": "0x2f4CA551C6946BE86a4988f737E3172BD8A164FE",
+      "txHash": "0xfb301bd8a1b658ee9b1268f9b184efe765d420acdedee4b7158a23319fed89ae",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "PUSH",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IERC20)18",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:46"
+          },
+          {
+            "label": "Core",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IPUSHCore)38",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:47"
+          },
+          {
+            "label": "Comm",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IPUSHCommInterface)48",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:48"
+          },
+          {
+            "label": "identity",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_bytes_storage",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:49"
+          },
+          {
+            "label": "amount",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:50"
+          }
+        ],
+        "types": {
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20)18": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCommInterface)48": {
+            "label": "contract IPUSHCommInterface",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCore)38": {
+            "label": "contract IPUSHCore",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
