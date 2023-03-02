@@ -9,6 +9,16 @@
       "address": "0xa1247840FBF601bA335D1ae934C1e87534B05393",
       "txHash": "0x46fa92bfda60bd67a2d63772407f051346947c78eeb52649b2f2bce5fcc552eb",
       "kind": "transparent"
+    },
+    {
+      "address": "0xd3AEbcC433daaF520878a4A53efC0419e03d8DBb",
+      "txHash": "0xe34385aa785801c4e3b4327e4ccd1de6c8648a510ae428c1ea29b1174e583f1e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x56D32d19A7FfB18322B3bb7E072A3B976d27d303",
+      "txHash": "0xf7b1d35ba2ca05c5818aa394f4242cefeec5239458547a26611ab0c3301d58d3",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -79,6 +89,294 @@
           "t_uint256": {
             "label": "uint256",
             "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "df1ea0a83189649932db1cd868996626f6627d532614df30894cbdfdbf270f68": {
+      "address": "0x3b3B206C486E1ED3ADCdea563dC3f164cD86D636",
+      "txHash": "0x7eb360c72bc8edb88eee5caca378c7c230e5301e1588dd8ad571e3d9d24d31b3",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "PUSH",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_contract(IERC20)589",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:22"
+          },
+          {
+            "label": "Core",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IPUSHCore)609",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:23"
+          },
+          {
+            "label": "Comm",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IPUSHCommInterface)619",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:24"
+          },
+          {
+            "label": "identity",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_bytes_storage",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:25"
+          },
+          {
+            "label": "amount",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:26"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20)589": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCommInterface)619": {
+            "label": "contract IPUSHCommInterface",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCore)609": {
+            "label": "contract IPUSHCore",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "68674902c05b46f6d565e73ccfce5901e597bf286d6c86f62dfaf4c35e37e4e5": {
+      "address": "0x5A3Beb56ca7ab69094675E084E9d465C15D2c91A",
+      "txHash": "0xc38dd6ba8b00c0aae71637d9174bf63d2a7bcd312e1071f3e67276cab9cbc449",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "PUSH",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_contract(IERC20)617",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:26"
+          },
+          {
+            "label": "Core",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IPUSHCore)637",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:27"
+          },
+          {
+            "label": "Comm",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IPUSHCommInterface)647",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:28"
+          },
+          {
+            "label": "identity",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_bytes_storage",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:29"
+          },
+          {
+            "label": "amount",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:30"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20)617": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCommInterface)647": {
+            "label": "contract IPUSHCommInterface",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCore)637": {
+            "label": "contract IPUSHCore",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "6fd4a512a8f09cc042209267e6f0a9025bf3204ac5c7bf5b9fbcd2e0fbf72aad": {
+      "address": "0xa9D98a1e5A6CCEa8458aA2051D5Cd4229d8bf8EE",
+      "txHash": "0x2adf18ac962e0f0a2cc27a10035203a21ff6fde23e487781ae918aa0103cea52",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "PUSH",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_contract(IERC20)617",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:26"
+          },
+          {
+            "label": "Core",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IPUSHCore)637",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:27"
+          },
+          {
+            "label": "Comm",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IPUSHCommInterface)647",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:28"
+          },
+          {
+            "label": "identity",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_bytes_storage",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:29"
+          },
+          {
+            "label": "amount",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_uint256",
+            "contract": "Push",
+            "src": "contracts\\Push.sol:30"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IERC20)617": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCommInterface)647": {
+            "label": "contract IPUSHCommInterface",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IPUSHCore)637": {
+            "label": "contract IPUSHCore",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
           }
         }
       }

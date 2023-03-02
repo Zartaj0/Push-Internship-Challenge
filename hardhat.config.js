@@ -6,7 +6,7 @@ console.log(process.env.ETHERSCAN);
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.18",
+  solidity: "0.8.19",
   networks: {
     goerli: {
       accounts: [process.env.PRIVATE_KEY1],

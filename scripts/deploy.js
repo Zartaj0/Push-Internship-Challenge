@@ -1,8 +1,10 @@
+const { ethers } = require("hardhat");
+
 
 
 async function main() {
  
-  const Version1 = await hre.ethers.getContractFactory("Push");
+  const Version1 = await ethers.getContractFactory("Push");
   const version1 = await upgrades.deployProxy(Version1);
 
   await version1.deployed();
